@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage('install') {
+            steps {
+                bat "npm install"
+            }
+        }
+        stage('set port number') {
+            steps {
+                bat "set APP_PORT=3000"
+            }
+        }
+        stage('Run server') {
+            steps {
+                bat "node src/server.js"
+            }
+        }
+    }
+}
+
+
+

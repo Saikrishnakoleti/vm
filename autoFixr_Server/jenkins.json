@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "name": "jenkins_server1",
+      "text": Jenkins-Server,
+      "selected": true,
+     
+    },
+    {
+      "name": "jenkins_server2",
+      "text": Jenkins Server2,
+      "selected": false,
+    },
+    {
+      "name": "jenkins_server3",
+      "text": Jenkins Server3,
+      "selected": true,
+    }
+  ]
+}
